@@ -1,0 +1,55 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OCR files
+uploads/
+results/
+output/
+outputs/
+tmp/
+temp/
+
+# Node / React / Vite
+node_modules/
+dist/
+build/
+.vite/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Tests / cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+"@ | Set-Content -Encoding UTF8 .gitignore
